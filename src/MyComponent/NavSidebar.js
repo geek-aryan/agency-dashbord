@@ -25,7 +25,7 @@ export default function NavSidebarf() {
     <Router>
     <div id="dashmenu" className="">
     
-      <Navbar className="sidebar">
+      <Navbar className="sidebar" id='sidenav'>
         <ul style={{margin:"0px",padding: "0px"}}>
           <li ><Link to="/" className="nav-link active">Dashboard</Link></li>
           {/* <li className="nav-item"><Link to="/home2" className="nav-link drop-link" style={{padding: "0px"}}>
@@ -43,26 +43,26 @@ export default function NavSidebarf() {
           </Link></li>
           <Collapse in={open}>
           <div id="collapse-agency">
-            <li><NavDropdown.Item><Link to="/existing-agency" className="nav-link">Ride Detail</Link></NavDropdown.Item></li>
-            <li><NavDropdown.Item><Link to="/add-agency" className="nav-link">Manage Driver</Link></NavDropdown.Item></li>
-            <li><NavDropdown.Item><Link to="/general-querry" className="nav-link">Company Request</Link></NavDropdown.Item></li>
+            <li><NavDropdown.Item><Link to="/existing-agency" className="nav-link snav-link">Ride Detail</Link></NavDropdown.Item></li>
+            <li><NavDropdown.Item><Link to="/add-agency" className="nav-link snav-link">Manage Driver</Link></NavDropdown.Item></li>
+            <li><NavDropdown.Item><Link to="/general-querry" className="nav-link snav-link">Company Request</Link></NavDropdown.Item></li>
           </div>
           </Collapse>
-          <li className="nav-item"><Link to="/transportation/existing-company" className="nav-link">Ride Detail</Link></li>
-          <li className="nav-item"><Link to="/driver" className="nav-link" >Manage Driver</Link></li>
+          <li className="nav-item"><Link to="/transportation/existing-company" className="nav-link snav-link">Ride Detail</Link></li>
+          <li className="nav-item"><Link to="/driver" className="nav-link snav-link" >Manage Driver</Link></li>
           {/* <li className="nav-item"><Link to="/customization/employeeapp" className="nav-link">Customize Website</Link></li> */}
-          <li className="nav-item"><Link to="/link2" className="nav-link">Company Request</Link></li>
-          <li className="nav-item"><Link to="/link3" className="nav-link">Subscription Detail</Link></li>
-          <li className="nav-item"><Link to="/general-querry" className="nav-link">Contact to Agency</Link></li><li className="nav-item"><Link to="/link1" className="nav-link">Link1</Link></li>
-          <li className="nav-item"><Link to="/link2" className="nav-link">Link2</Link></li>
-          <li className="nav-item"><Link to="/link3" className="nav-link">Link3</Link></li>
-          <li className="nav-item"><Link to="/link4" className="nav-link">Link4</Link></li><li className="nav-item"><Link to="/link1" className="nav-link">Link1</Link></li>
-          <li className="nav-item"><Link to="/link2" className="nav-link">Link2</Link></li>
-          <li className="nav-item"><Link to="/link3" className="nav-link">Link3</Link></li>
-          <li className="nav-item"><Link to="/link4" className="nav-link">Link4</Link></li><li className="nav-item"><Link to="/link1" className="nav-link">Link1</Link></li>
-          <li className="nav-item"><Link to="/link2" className="nav-link">Link2</Link></li>
-          <li className="nav-item"><Link to="/link3" className="nav-link">Link3</Link></li>
-          <li className="nav-item"><Link to="/link4" className="nav-link">Link4</Link></li>
+          <li className="nav-item"><Link to="/link2" className="nav-link snav-link">Company Request</Link></li>
+          <li className="nav-item"><Link to="/link3" className="nav-link snav-link">Subscription Detail</Link></li>
+          <li className="nav-item"><Link to="/general-querry" className="nav-link snav-link">Contact to Agency</Link></li><li className="nav-item"><Link to="/link1" className="nav-link">Link1</Link></li>
+          <li className="nav-item"><Link to="/link2" className="nav-link snav-link">Link2</Link></li>
+          <li className="nav-item"><Link to="/link3" className="nav-link snav-link">Link3</Link></li>
+          <li className="nav-item"><Link to="/link4" className="nav-link snav-link">Link4</Link></li><li className="nav-item"><Link to="/link1" className="nav-link">Link1</Link></li>
+          <li className="nav-item"><Link to="/link2" className="nav-link snav-link">Link2</Link></li>
+          <li className="nav-item"><Link to="/link3" className="nav-link snav-link">Link3</Link></li>
+          <li className="nav-item"><Link to="/link4" className="nav-link snav-link">Link4</Link></li><li className="nav-item"><Link to="/link1" className="nav-link">Link1</Link></li>
+          <li className="nav-item"><Link to="/link2" className="nav-link snav-link">Link2</Link></li>
+          <li className="nav-item"><Link to="/link3" className="nav-link snav-link">Link3</Link></li>
+          <li className="nav-item"><Link to="/link4" className="nav-link snav-link">Link4</Link></li>
           <li className="nav-item">
           {/* Dropdown-menu */}
           <NavDropdown title="Dropdown" id="sidedrop1" >

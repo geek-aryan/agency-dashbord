@@ -61,8 +61,8 @@ ul li{
     padding: 0%;
 }
 
-ul li a:hover{
-    color: white;
+.sidebar ul li a:hover,.sidebar .nav-link.active{
+    color: white !important;
     background: #0d6efd;
 
 }
@@ -73,7 +73,7 @@ ul li a:hover{
 .sidebar .nav-link{
     color:#0d6efd !important
 }
-/* .sidebar .nav-link:active,.sidebar .nav-link.active{
+/* .sidebar .nav-link.active{
     color:white !important;
     background :#0d6efd !important
 } */
